@@ -1,4 +1,4 @@
-=DataMapper OpenID Store Plugin
+=DataMapper OpenID Store
 
 (Ported from Dag Arneson's active_record_openid_store plugin)
 

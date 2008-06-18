@@ -14,7 +14,7 @@ Gem::Specification.new do |s|
   s.add_dependency "ruby-openid", ">= 0"
   s.add_dependency "dm-core", ">= 0"
   # s.executables = [""]
-  s.date = "Tue Jun 17 00:00:00 +0300 2008"
+  s.date = "Wed Jun 18 00:00:00 +0300 2008"
   s.version = "0.1.0"
   s.files = ["LICENSE",
  "README",

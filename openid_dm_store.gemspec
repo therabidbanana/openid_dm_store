@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.has_rdoc = "true"
-  s.specification_version = "2"
+  s.specification_version = 2
   s.loaded = "false"
   # s.bindir = "bin"
   s.email = "jed.hurt@gmail.com"

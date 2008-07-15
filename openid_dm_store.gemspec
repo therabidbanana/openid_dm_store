@@ -15,7 +15,7 @@ Gem::Specification.new do |s|
   s.add_dependency "dm-core", ">= 0"
   # s.executables = [""]
   s.date = "Wed Jun 18 00:00:00 +0300 2008"
-  s.version = "0.1.0"
+  s.version = "0.1.1"
   s.files = ["LICENSE",
  "README",
  "openid_dm_store.rb",

@@ -29,7 +29,7 @@ module OpenIDDataMapper
         a = assoc.from_record    
         if a.expires_in == 0
           # assoc.destroy
-          assoc.destroy!
+          assoc.destroy
         else
           return a
         end

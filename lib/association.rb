@@ -5,7 +5,7 @@ module OpenIDDataMapper
   class Association
     include DataMapper::Resource
 
-    property :id,         Integer, :serial => true
+    property :id,         Serial
     property :handle,     String
     property :secret,     Object # TODO: replace with Blob
     property :issued,     Integer

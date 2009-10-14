@@ -3,7 +3,7 @@ module OpenIDDataMapper
   class Nonce
     include DataMapper::Resource
 
-    property :id,         Integer, :serial => true
+    property :id,         Serial
     property :salt,       String,  :nullable => false
     property :server_url, String,  :nullable => false
     property :timestamp,  Integer, :nullable => false

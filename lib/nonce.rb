@@ -4,9 +4,9 @@ module OpenIDDataMapper
     include DataMapper::Resource
 
     property :id,         Serial
-    property :salt,       String,  :nullable => false
-    property :server_url, String,  :nullable => false
-    property :timestamp,  Integer, :nullable => false
+    property :salt,       String,  :required => true
+    property :server_url, String,  :required => true
+    property :timestamp,  Integer, :required => true
   
     def self.default_storage_name
       "OpenIdNonce"

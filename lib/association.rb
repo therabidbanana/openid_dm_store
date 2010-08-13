@@ -6,7 +6,7 @@ module OpenIDDataMapper
     include DataMapper::Resource
 
     property :id,         Serial
-    property :handle,     String
+    property :handle,     String,  :length => 255
     property :secret,     Object # TODO: replace with Blob
     property :issued,     Integer
     property :lifetime,   Integer

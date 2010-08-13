@@ -7,11 +7,11 @@ module OpenIDDataMapper
 
     property :id,         Serial
     property :handle,     String,  :length => 255
-    property :secret,     Object # TODO: replace with Blob
+    property :secret,     Text # TODO: replace with Blob
     property :issued,     Integer
     property :lifetime,   Integer
     property :assoc_type, String
-    property :server_url, Object # TODO: replace with Blob
+    property :server_url, Text # TODO: replace with Blob
   
     def self.default_storage_name
       "OpenIdAssociation"
